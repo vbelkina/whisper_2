@@ -30,7 +30,7 @@ class Commands():
 
         self.commands = []
 
-        with open('~/catkin_ws/src/whisper/commands.json') as file:
+        with open('~/catkin_ws/src/whisper_2/commands.json') as file:
             self.parsed_json = json.load(file)
 
     def command(self):
