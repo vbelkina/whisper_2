@@ -47,7 +47,7 @@ class srec():
 
             try:
                 
-                result = self.r.recognize_whisper(audio)
+                result = self.r.recognize_google(audio)
                 result = result.lower()
                 # total_result += " " + result
 
